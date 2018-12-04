@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayout_indications"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/material_design_margin"
+    tools:context=".fragments.IndicationsFragment">
+
+    <TextView
+        android:id="@+id/text_indications_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_design_margin"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mi sapien, pulvinar ac justo et, fringilla cursus lectus. Duis et fringilla orci, vitae congue sem. Curabitur varius massa purus, non rutrum nisi interdum condimentum. Proin eget lectus in lacus tristique tempor in ut ante. Integer sollicitudin magna sed finibus interdum. Mauris nec lorem ut purus elementum placerat et non enim. Nunc sagittis lorem nec interdum elementum. Integer sapien sapien, tincidunt vitae laoreet quis, efficitur sit amet justo. Nam id lectus dignissim, porta est tempor, lobortis mauris. Morbi ac ullamcorper enim. "/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_indications_careers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_design_margin"
+        android:layout_below="@+id/text_indications_information"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/text_indications_careers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/indications_careers"/>
+
+        <Spinner
+            android:id="@+id/spinner_indications_careers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_indications_star_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_design_margin"
+        android:layout_below="@+id/linearlayout_indications_careers"
+        android:background="@drawable/shape_rectangle_button"
+        android:enabled="false"
+        android:text="@string/indications_start_exam"
+        android:textColor="@color/shape_rectangle_button_text" />
+
+    <Button
+        android:id="@+id/button_indications_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_indications_star_exam"
+        android:background="@drawable/shape_rectangle_button"
+        android:enabled="true"
+        android:text="@string/indications_cancel"
+        android:textColor="@color/shape_rectangle_button_text" />
+
+</RelativeLayout>

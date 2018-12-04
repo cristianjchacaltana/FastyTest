@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42659330264",
+    "firebase_url": "https://fasty-test.firebaseio.com",
+    "project_id": "fasty-test",
+    "storage_bucket": "fasty-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42659330264:android:3ca2e2cf4a52c701",
+        "android_client_info": {
+          "package_name": "com.firebaseapp.fasty.fastytest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42659330264-7t6hk8jtjju5vu8ljpqvkhp970uid81i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebaseapp.fasty.fastytest",
+            "certificate_hash": "cf2346d72b31b7276f250f68e80662e3c3dd2a7a"
+          }
+        },
+        {
+          "client_id": "42659330264-rbvltbrb8872ltjf2ti629fqmnh6amve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0h7Rw29_GDmA-KeBln2vrYIJY22NFvyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42659330264-rbvltbrb8872ltjf2ti629fqmnh6amve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

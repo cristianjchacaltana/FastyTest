@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_design_margin">16dp</dimen>
+
+    <dimen name="shape_rectangle_corners">4dp</dimen>
+    <dimen name="shape_rectangle_padding">16dp</dimen>
+    <dimen name="shape_rectangle_stroke">1dp</dimen>
+
+    <dimen name="login_padding">32dp</dimen>
+    <dimen name="login_margin_title">48dp</dimen>
+    <dimen name="login_margin_edittext">16dp</dimen>
+    <dimen name="login_space">4dp</dimen>
+    <dimen name="login_line_divider_margin">8dp</dimen>
+    <dimen name="login_text_divider_width">40dp</dimen>
+
+    <dimen name="register_progressbar_width">172dp</dimen>
+    <dimen name="register_image_margin">16dp</dimen>
+
+    <dimen name="universities_cardview_height">250dp</dimen>
+    <dimen name="universities_cardview_margin">8dp</dimen>
+
+    <dimen name="exams_cardview_height">250dp</dimen>
+    <dimen name="exams_cardview_margin">8dp</dimen>
+
+    <dimen name="question_cardview_height">48dp</dimen>
+    <dimen name="question_cardview_magin">8dp</dimen>
+
+    <dimen name="results_cardview_height">250dp</dimen>
+    <dimen name="results_cardview_margin">8dp</dimen>
+
+</resources>

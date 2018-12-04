@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_examenes"
+        android:icon="@drawable/ic_menu_exams"
+        android:layout_centerVertical="true"
+        android:title="@string/main_exams_icon"></item>
+
+    <item
+        android:id="@+id/menu_results"
+        android:icon="@drawable/ic_menu_results"
+        android:layout_centerVertical="true"
+        android:title="@string/main_results_icon"></item>
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_menu_notifications"
+        android:layout_centerVertical="true"
+        android:title="@string/main_notifications_icon"></item>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_menu_profile"
+        android:layout_centerVertical="true"
+        android:title="@string/main_profile_icon"></item>
+
+</menu>
