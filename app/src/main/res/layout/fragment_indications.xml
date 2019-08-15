@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/material_design_margin"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mi sapien, pulvinar ac justo et, fringilla cursus lectus. Duis et fringilla orci, vitae congue sem. Curabitur varius massa purus, non rutrum nisi interdum condimentum. Proin eget lectus in lacus tristique tempor in ut ante. Integer sollicitudin magna sed finibus interdum. Mauris nec lorem ut purus elementum placerat et non enim. Nunc sagittis lorem nec interdum elementum. Integer sapien sapien, tincidunt vitae laoreet quis, efficitur sit amet justo. Nam id lectus dignissim, porta est tempor, lobortis mauris. Morbi ac ullamcorper enim. "/>
+        android:text="Terminos y Condiciones de FASTY"/>
 
     <LinearLayout
         android:id="@+id/linearlayout_indications_careers"
